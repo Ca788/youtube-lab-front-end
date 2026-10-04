@@ -20,7 +20,7 @@ export function LiveStreamPlayer({ videoId, title }: LiveStreamPlayerProps) {
         }}
       >
         <iframe
-          src={`https://www.youtube.com/embed/${videoId}?rel=0`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`}
           title={title ?? videoId}
           width={1280}
           height={720}
